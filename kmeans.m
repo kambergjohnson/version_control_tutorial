@@ -9,6 +9,8 @@ centroids_y = points_y(start_points);
 
 % TODO: change for-loops to matrix operations
 
+% EDITS EDITS EDITS EDITS SHAMIK
+
 for i = 1:n_iterations
     % Calculate distance to each point
     distances = zeros(n_centroids, n_points);
