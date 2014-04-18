@@ -14,7 +14,7 @@ for i = 1:n_colors
         assert(~all(color_mat(i, :) == color_mat(j, :)));
     end
 end
-
+%This is my one line change. 
 % Plot the colors for a user to check
 figure()
 clf
