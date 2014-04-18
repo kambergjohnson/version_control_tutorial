@@ -27,6 +27,12 @@ cluster_colors = choose_random_colors(n_clusters);
 figure(1)
 clf
 
+subplot(1, 2, 1)
+plot(points_x, points_y, '.')
+axis square
+
+subplot(1, 2, 2)
+
 hold on
 
 for cluster_index = 1:n_clusters
